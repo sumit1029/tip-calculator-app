@@ -7,6 +7,6 @@
     <string name="round_up">Round up the tip?</string>
     <string name="cost_of_service">Cost of the service</string>
     <string name="calculate">Calculate</string>
-    <string name="tip_amount">Tip Amount</string>
-
+    <string name="tip_amount_hint">Tip Amount</string>
+    <string name="tip_amount">Tip Amount: %s</string>
 </resources>
