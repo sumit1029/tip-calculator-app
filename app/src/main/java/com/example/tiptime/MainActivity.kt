@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         val stringData = binding.costOfServiceEditText.text.toString()
         if(stringData.isEmpty()){
             binding.costOfService.hint = "Please Enter Cost"
-            var tip = 0
+            val tip = 0
             val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
             binding.result.text = getString(R.string.tip_amount, formattedTip)
             return
